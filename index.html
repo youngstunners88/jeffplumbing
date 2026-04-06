@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jeff Plumbing — Professional Plumbing in Tswelopele</title>
-  <meta name="description" content="Professional plumbing services in Tswelopele, Thembisa. 5-star rated. Call 068 580 5133 for a free quote." />
+  <meta name="description" content="Professional plumbing services in Tswelopele, Thembisa. 5-star rated plumbing services." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <style>
@@ -22,16 +22,10 @@
     .nav-links { display: flex; align-items: center; gap: 2rem; }
     .nav-links a { color: #444; font-weight: 500; font-size: 0.9rem; transition: color 0.2s; }
     .nav-links a:hover { color: #e05a1e; }
-    .nav-cta { display: flex; align-items: center; gap: 0.75rem; }
 
     /* ── BUTTONS ── */
     .btn-orange { display: inline-flex; align-items: center; gap: 0.5rem; background: #e05a1e; color: #fff !important; border: none; border-radius: 9px; padding: 0.85rem 1.75rem; font-size: 0.95rem; font-weight: 700; cursor: pointer; font-family: inherit; transition: background 0.2s, transform 0.15s; }
     .btn-orange:hover { background: #c44e18; transform: translateY(-1px); }
-    .btn-green { display: inline-flex; align-items: center; gap: 0.5rem; background: #25D366; color: #fff !important; border: none; border-radius: 9px; padding: 0.85rem 1.75rem; font-size: 0.95rem; font-weight: 700; cursor: pointer; font-family: inherit; transition: background 0.2s, transform 0.15s; }
-    .btn-green:hover { background: #1da851; transform: translateY(-1px); }
-    .btn-outline-white { display: inline-flex; align-items: center; gap: 0.5rem; background: transparent; color: #fff !important; border: 2px solid rgba(255,255,255,0.5); border-radius: 9px; padding: 0.82rem 1.75rem; font-size: 0.95rem; font-weight: 600; transition: border-color 0.2s; }
-    .btn-outline-white:hover { border-color: #fff; background: rgba(255,255,255,0.08); }
-    .btn-sm { padding: 0.5rem 1rem !important; font-size: 0.85rem !important; }
 
     /* ── HERO ── */
     .hero { background: #1a2744; padding: 100px 1.5rem 80px; min-height: 88vh; display: flex; align-items: center; }
@@ -48,14 +42,6 @@
     .hero-stat-icon { width: 40px; height: 40px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
     .hero-stat strong { font-size: 0.9rem; color: #fff; display: block; }
     .hero-stat span { font-size: 0.75rem; color: rgba(255,255,255,0.5); }
-
-    /* ── STRIP ── */
-    .strip { background: #e05a1e; padding: 1.1rem 1.5rem; }
-    .strip-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-    .strip strong { color: #fff; font-size: 1rem; }
-    .strip-btns { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .strip-btn-call { background: #fff; color: #e05a1e !important; border-radius: 7px; padding: 0.55rem 1.2rem; font-weight: 700; font-size: 0.88rem; }
-    .strip-btn-wa { background: #25D366; color: #fff !important; border-radius: 7px; padding: 0.55rem 1.2rem; font-weight: 700; font-size: 0.88rem; }
 
     /* ── SECTIONS ── */
     .section-light { background: #f8f9fa; padding: 80px 1.5rem; }
@@ -98,218 +84,178 @@
     .stars-sub { color: #888; font-size: 0.85rem; margin-top: 0.3rem; }
     .about-text { color: #555; line-height: 1.7; font-size: 1rem; margin-top: 1rem; }
 
-    /* ── CONTACT CARDS ── */
-    .contact-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.1rem; max-width: 780px; margin: 0 auto 2.5rem; }
-    .contact-card { background: #fff; border: 1.5px solid #e8e8e8; border-radius: 14px; padding: 1.5rem; text-align: center; transition: all 0.2s; display: block; }
-    .contact-card:hover { transform: translateY(-3px); }
-    .contact-card .icon { font-size: 2rem; margin-bottom: 0.75rem; }
-    .contact-card .label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; color: #999; text-transform: uppercase; margin-bottom: 0.35rem; }
-    .contact-card .value { font-weight: 700; font-size: 0.95rem; }
-
-    /* ── CTA BANNER ── */
-    .cta-banner { background: #1a2744; border-radius: 18px; padding: 2.5rem 2rem; text-align: center; }
-    .cta-banner h3 { color: #fff; font-weight: 800; font-size: 1.5rem; margin-bottom: 0.65rem; }
-    .cta-banner p { color: rgba(255,255,255,0.6); font-size: 0.95rem; margin-bottom: 1.75rem; }
-    .cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-
     /* ── FOOTER ── */
-    footer { background: #0f1826; padding: 2.5rem 1.5rem; }
-    .footer-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-    .footer-logo { color: #fff; font-weight: 800; font-size: 1.05rem; margin-bottom: 0.3rem; }
-    .footer-sub { color: rgba(255,255,255,0.45); font-size: 0.82rem; }
-    .footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-    .footer-links a { color: rgba(255,255,255,0.65); font-size: 0.85rem; }
-    .footer-copy { color: rgba(255,255,255,0.4); font-size: 0.78rem; }
+    footer { background: #0f1525; color: #9ca3af; padding: 2.5rem 1.5rem; text-align: center; }
+    footer p { font-size: 0.88rem; }
 
     /* ── RESPONSIVE ── */
-    @media (max-width: 768px) {
-      .nav-links { display: none; }
-      .grid-3 { grid-template-columns: 1fr 1fr; }
-      .grid-4 { grid-template-columns: 1fr 1fr; }
+    @media (max-width: 900px) {
+      .grid-3, .grid-4 { grid-template-columns: repeat(2,1fr); }
       .grid-2 { grid-template-columns: 1fr; gap: 2rem; }
-      .contact-cards { grid-template-columns: 1fr; max-width: 100%; }
-      .strip-inner { justify-content: center; text-align: center; }
-      .hero-stats { gap: 1.25rem; }
+      .hero { min-height: auto; padding: 80px 1.5rem 60px; }
     }
-    @media (max-width: 480px) {
+    @media (max-width: 600px) {
       .grid-3, .grid-4 { grid-template-columns: 1fr; }
-      .hero-btns { flex-direction: column; }
-      .cta-btns { flex-direction: column; align-items: center; }
+      .nav-links { gap: 1.2rem; }
     }
   </style>
 </head>
 <body>
-
-<!-- NAV -->
-<nav>
-  <div class="nav-inner">
-    <a href="#top" class="logo">Jeff Plumbing</a>
-    <div class="nav-links">
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="nav-cta">
-      <a href="https://wa.me/27685805133?text=Hi%20Jeff%2C%20I%20need%20a%20plumber." target="_blank" class="btn-green btn-sm">💬 WhatsApp</a>
-      <a href="tel:0685805133" class="btn-orange btn-sm">📞 068 580 5133</a>
-    </div>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section class="hero" id="top">
-  <div class="hero-inner">
-    <div class="hero-badge">
-      <div class="badge-dot"></div>
-      Available Now — Call or WhatsApp
-    </div>
-    <h1>Professional Plumbing<br><span>in Tswelopele.</span></h1>
-    <p>Fast, reliable plumbing for homes and businesses in Tswelopele and surrounding Johannesburg areas. Free quotes, no call-out fee.</p>
-    <div class="hero-btns">
-      <a href="tel:0685805133" class="btn-orange" style="font-size:1rem;padding:0.9rem 2rem;">📞 Call 068 580 5133</a>
-      <a href="https://wa.me/27685805133?text=Hi%20Jeff%2C%20I%20need%20a%20plumber." target="_blank" class="btn-outline-white" style="font-size:1rem;padding:0.88rem 2rem;">💬 WhatsApp Us</a>
-    </div>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <div class="hero-stat-icon">⭐</div>
-        <div><strong>5-Star Rated</strong><span>12+ verified reviews</span></div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-icon">📍</div>
-        <div><strong>Tswelopele</strong><span>Thembisa, Johannesburg</span></div>
-      </div>
-      <div class="hero-stat">
-        <div class="hero-stat-icon">🕐</div>
-        <div><strong>24/7 Emergency</strong><span>We answer the call</span></div>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="logo">JEFF PLUMBING</div>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
       </div>
     </div>
-  </div>
-</section>
+  </nav>
 
-<!-- CONTACT STRIP -->
-<div class="strip">
-  <div class="strip-inner">
-    <strong>Need a plumber right now?</strong>
-    <div class="strip-btns">
-      <a href="tel:0685805133" class="strip-btn-call">📞 068 580 5133</a>
-      <a href="https://wa.me/27685805133?text=Hi%20Jeff%2C%20I%20need%20a%20plumber." target="_blank" class="strip-btn-wa">💬 WhatsApp</a>
-    </div>
-  </div>
-</div>
-
-<!-- SERVICES -->
-<section class="section-light" id="services">
-  <div class="section-inner">
-    <div class="section-head">
-      <span class="section-label">What We Do</span>
-      <h2>Plumbing services<br>for every job.</h2>
-      <p class="section-sub">From a dripping tap to a full installation — we handle it all. No job too small.</p>
-    </div>
-    <div class="grid-3">
-      <div class="service-card"><div class="icon">🔧</div><h3>General Plumbing</h3><p>Leaking taps, burst pipes, toilet repairs and all general plumbing work.</p></div>
-      <div class="service-card"><div class="icon">🚿</div><h3>Geyser Services</h3><p>Geyser installation, repair and replacement. All brands.</p></div>
-      <div class="service-card"><div class="icon">🔍</div><h3>Leak Detection</h3><p>Find and fix hidden leaks before they cause serious damage.</p></div>
-      <div class="service-card"><div class="icon">🚰</div><h3>Drain Cleaning</h3><p>Blocked drains cleared fast — sinks, toilets, storm drains.</p></div>
-      <div class="service-card"><div class="icon">🏗️</div><h3>New Installations</h3><p>Plumbing for new builds, extensions and renovations.</p></div>
-      <div class="service-card"><div class="icon">🚨</div><h3>24/7 Emergency</h3><p>Burst pipe at midnight? We answer the call. Available 24/7.</p></div>
-    </div>
-    <div style="text-align:center;margin-top:2.5rem;">
-      <a href="tel:0685805133" class="btn-orange">📞 Get a Free Quote</a>
-    </div>
-  </div>
-</section>
-
-<!-- WHY CHOOSE US -->
-<section class="section-dark">
-  <div class="section-inner">
-    <div class="section-head center">
-      <span class="section-label-white">Why Choose Jeff</span>
-      <h2 class="white">Plumbing you can count on.</h2>
-    </div>
-    <div class="grid-4">
-      <div class="reason-card"><div class="icon">⭐</div><h3>5-Star Rated</h3><p>12+ happy customers</p></div>
-      <div class="reason-card"><div class="icon">⚡</div><h3>Fast Response</h3><p>We come to you quickly</p></div>
-      <div class="reason-card"><div class="icon">✅</div><h3>Quality Work</h3><p>Guaranteed every time</p></div>
-      <div class="reason-card"><div class="icon">💰</div><h3>Free Quotes</h3><p>No obligation, no hidden fees</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section class="section-white" id="about">
-  <div class="section-inner">
-    <div class="grid-2">
-      <div>
-        <span class="section-label">About Us</span>
-        <h2>Local, trusted,<br>experienced.</h2>
-        <p class="about-text">Jeff Plumbing is based in Tswelopele, Thembisa, and serves homes and businesses across Johannesburg. We believe in honest work, fair prices and showing up when we say we will.</p>
-        <p class="about-text">With 12+ satisfied customers giving us 5-star ratings, our reputation speaks for itself. Contact us for a free, no-obligation quote.</p>
-        <div class="stars">★★★★★</div>
-        <div class="stars-sub">Rated 5 stars by 12+ customers</div>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available Now
       </div>
-      <div>
-        <div class="check-item"><span>✅</span><span>Qualified and experienced plumber</span></div>
-        <div class="check-item"><span>✅</span><span>Serving Tswelopele, Thembisa &amp; surrounds</span></div>
-        <div class="check-item"><span>✅</span><span>Free quotes — no hidden costs</span></div>
-        <div class="check-item"><span>✅</span><span>24/7 emergency call-out</span></div>
-        <div class="check-item"><span>✅</span><span>All work guaranteed</span></div>
-        <div class="check-item"><span>✅</span><span>Available on WhatsApp</span></div>
+      <h1>Plumbing you can <span>trust</span> in Tswelopele</h1>
+      <p>Fast, reliable plumbing for homes and businesses in Tswelopele and surrounding Johannesburg areas. Free quotes, no call-out fee.</p>
+      <div class="hero-btns">
+        <a href="#services" class="btn-orange">View Our Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-icon">⭐</div>
+          <div>
+            <strong>5-Star Rated</strong>
+            <span>Verified reviews</span>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-icon">⚡</div>
+          <div>
+            <strong>Same Day</strong>
+            <span>Quick response</span>
+          </div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-icon">🛡️</div>
+          <div>
+            <strong>Guaranteed</strong>
+            <span>Workmanship</span>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
-<!-- CONTACT -->
-<section class="section-light" id="contact">
-  <div class="section-inner">
-    <div class="section-head center">
-      <span class="section-label">Get In Touch</span>
-      <h2>Ready to help you today.</h2>
-      <p class="section-sub">Call or WhatsApp Jeff directly. We respond fast.</p>
-    </div>
-    <div class="contact-cards">
-      <a href="tel:0685805133" class="contact-card" style="border-color:#e8e8e8;">
-        <div class="icon">📞</div>
-        <div class="label">Call Us</div>
-        <div class="value" style="color:#e05a1e;">068 580 5133</div>
-      </a>
-      <a href="https://wa.me/27685805133?text=Hi%20Jeff%2C%20I%20need%20a%20plumber." target="_blank" class="contact-card">
-        <div class="icon">💬</div>
-        <div class="label">WhatsApp</div>
-        <div class="value" style="color:#25D366;">Chat on WhatsApp</div>
-      </a>
-      <a href="https://maps.google.com/?q=31+Botswana+St,+Tswelopele,+Thembisa,+1632" target="_blank" class="contact-card">
-        <div class="icon">📍</div>
-        <div class="label">Location</div>
-        <div class="value" style="color:#3b82f6;">Tswelopele, Thembisa</div>
-      </a>
-    </div>
-    <div class="cta-banner">
-      <h3>Don't let a plumbing problem get worse.</h3>
-      <p>Call Jeff now for fast, professional service and a free quote.</p>
-      <div class="cta-btns">
-        <a href="tel:0685805133" class="btn-orange" style="font-size:1rem;padding:0.9rem 2rem;">📞 Call 068 580 5133</a>
-        <a href="https://wa.me/27685805133?text=Hi%20Jeff%2C%20I%20need%20a%20plumber." target="_blank" class="btn-green" style="font-size:1rem;padding:0.9rem 2rem;">💬 WhatsApp</a>
+  <!-- SERVICES -->
+  <section class="section-light" id="services">
+    <div class="section-inner">
+      <div class="section-head center">
+        <span class="section-label">Our Services</span>
+        <h2>Plumbing solutions that last</h2>
+        <p class="section-sub">From burst pipes to full bathroom installations — we handle it all with precision and care.</p>
+      </div>
+      <div class="grid-3">
+        <div class="service-card">
+          <div class="icon">🚰</div>
+          <h3>Leak Repairs</h3>
+          <p>Stop water waste and damage fast. We find and fix leaks in pipes, taps, toilets, and ceilings.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🚿</div>
+          <h3>Blocked Drains</h3>
+          <p>Full unblocking service for sinks, showers, toilets, and main lines. We clear what others can't.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🛁</div>
+          <h3>Bathroom Installations</h3>
+          <p>Complete bathroom fitting including geysers, showers, basins, and toilet suites.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🔥</div>
+          <h3>Geyser Services</h3>
+          <p>Installation, repairs, and replacements. Solar geyser conversions to save on electricity.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🏗️</div>
+          <h3>Rough-in Plumbing</h3>
+          <p>New construction and renovation plumbing. Pipework, drainage, and fixture preparation.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🚨</div>
+          <h3>24/7 Emergency</h3>
+          <p>Burst pipe at midnight? We answer the call. Available 24/7.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-inner">
-    <div>
-      <div class="footer-logo">Jeff Plumbing</div>
-      <div class="footer-sub">Professional plumbing in Tswelopele, Thembisa.</div>
+  <!-- WHY US -->
+  <section class="section-dark">
+    <div class="section-inner">
+      <div class="section-head center">
+        <span class="section-label-white">Why Choose Us</span>
+        <h2 class="white">The difference is in the details</h2>
+        <p class="section-sub white">We don't just fix pipes — we build trust.</p>
+      </div>
+      <div class="grid-4">
+        <div class="reason-card">
+          <div class="icon">⚡</div>
+          <h3>Fast Response</h3>
+          <p>Same-day service when you need it most</p>
+        </div>
+        <div class="reason-card">
+          <div class="icon">💰</div>
+          <h3>Fair Pricing</h3>
+          <p>Upfront quotes, no hidden costs</p>
+        </div>
+        <div class="reason-card">
+          <div class="icon">🛡️</div>
+          <h3>Workmanship Guarantee</h3>
+          <p>We stand behind every job we do</p>
+        </div>
+        <div class="reason-card">
+          <div class="icon">🤝</div>
+          <h3>Clean & Respectful</h3>
+          <p>We leave your home spotless</p>
+        </div>
+      </div>
     </div>
-    <div class="footer-links">
-      <a href="tel:0685805133">📞 068 580 5133</a>
-      <a href="https://wa.me/27685805133" target="_blank">💬 WhatsApp</a>
-      <a href="https://maps.google.com/?q=31+Botswana+St,+Tswelopele,+Thembisa,+1632" target="_blank">📍 Tswelopele</a>
-    </div>
-    <div class="footer-copy">© 2026 Jeff Plumbing</div>
-  </div>
-</footer>
+  </section>
 
+  <!-- ABOUT -->
+  <section class="section-white" id="about">
+    <div class="section-inner">
+      <div class="grid-2">
+        <div>
+          <span class="section-label">About Us</span>
+          <h2>Local plumber, professional standards</h2>
+          <p class="about-text">With 12+ satisfied customers giving us 5-star ratings, our reputation speaks for itself.</p>
+          <div style="margin-top:1.5rem">
+            <div class="check-item"><span>✅</span><span>Fully equipped van on every call</span></div>
+            <div class="check-item"><span>✅</span><span>Quality materials, no shortcuts</span></div>
+            <div class="check-item"><span>✅</span><span>24/7 emergency call-out</span></div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <p class="stars-sub">12+ happy customers in Tswelopele</p>
+        </div>
+        <div style="background:linear-gradient(135deg,#1a2744,#2d3a5c);border-radius:20px;min-height:320px;display:flex;align-items:center;justify-content:center;">
+          <div style="text-align:center;color:#fff;padding:2rem">
+            <div style="font-size:4rem;margin-bottom:1rem">🛠️</div>
+            <p style="font-size:1.1rem;font-weight:600">Jeff Plumbing</p>
+            <p style="opacity:0.7">Professional plumbing you can trust</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Jeff Plumbing — Tswelopele, Thembisa. Professional plumbing services.</p>
+  </footer>
 </body>
 </html>
